@@ -1,0 +1,16 @@
+[user]
+  name = [Personal Name]
+  email = [email@example.com]
+[core]
+  editor = code --wait
+[alias]
+  s = !git status -s
+  c = !git add --all && git commit -m
+  cb = !git checkout -b
+  co = !git checkout
+  ca = !git add --all && git commit --amend --no-edit
+  l = !git log --pretty=format:'%C(blue)%h %C(red)%d %C(White)%s - %C(Cyan)[%cn], %C(Green)%cr'
+[push]
+  followTags = true
+[init]
+  defaultBranch = main
